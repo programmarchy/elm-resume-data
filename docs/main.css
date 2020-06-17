@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Titillium+Web");
+body{
+    background-color:#ddd;
+    font-family:'Lato',sans-serif;
+    font-size:14px;
+    margin:0
+}
+code{
+    font-family:monospace;
+    background-color:#f1f1f1;
+    color:#333;
+    padding:0 4px
+}
+.resume{
+    position:relative
+}
+.resume:before{
+    display:block;
+    width:64px;
+    height:64px;
+    position:absolute;
+    background-image:url("./logo.png");
+    content:"";
+    left:16px;
+    top:16px
+}
+*{
+    box-sizing:border-box;
+    line-height:1.3rem
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Titillium Web',sans-serif
+}
+.resume{
+    max-width:960px;
+    margin:40px auto 80px;
+    padding:40px 80px 80px 160px;
+    border:1px solid #aaa;
+    background-color:#fff;
+    box-shadow:0 0 8px rgba(0,0,0,0.1),10px 10px 40px rgba(0,0,0,0.25)
+}
+a{
+    color:#333;
+    text-decoration:none
+}
+address.resume-address-street .markdown p{
+    margin:0;
+    white-space:pre;
+    color:#999
+}
+.toggle,.resume-social-link:before,li li:before,.markdown li:before{
+    font-family:"FontAwesome";
+    width:24px;
+    font-size:1rem;
+    display:inline-block;
+    color:#999;
+    line-height:1rem
+}
+.resume-social-link.github:before{
+    content:"\f09b"
+}
+.resume-social-link.twitter:before{
+    content:"\f099"
+}
+.resume-social-link.linkedin:before{
+    content:"\f0e1"
+}
+.resume-social-link.skype:before{
+    content:"\f17e"
+}
+.resume-social-link.website:before{
+    content:"\f0ac"
+}
+.resume-social-link.gtalk:before{
+    content:"\f1a0"
+}
+.resume-social-link.stack-overflow:before{
+    content:"\f16c"
+}
+.resume-social-link.open-hub:before{
+    font-family:'Lato',sans-serif;
+    content:"oh"
+}
+.toggle.collapse:before{
+    content:"\f066"
+}
+.toggle.expand:before{
+    content:"\f065"
+}
+.toggle{
+    display:block;
+    width:23px;
+    height:23px;
+    padding:3px 4px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    position:absolute;
+    right:26px;
+}
+.toggle span{
+    display:none
+}
+.resume-section-body{
+    position:relative
+}
+.resume-section-body .toggle{
+    margin-top:-32px;
+    right:-54px;
+    top:0
+}
+.resume-name{
+    font-size:1.6rem;
+    border-bottom:1px dashed #ccc;
+    color:#333;
+    padding-bottom:8px
+}
+.resume-section-title{
+    border-bottom:1px dotted #ccc;
+    color:#999;
+    font-size:1.2rem;
+    padding:4px 0
+}
+.resume-section-item-title{
+    color:#333;
+    font-size:1rem
+}
+.resume-contact-section{
+    min-height:100px
+}
+.resume-section-body .resume-section-body{
+    padding-left:16px
+}
+.resume-intro{
+    border:1px solid #f1f1f1;
+    padding:10px 20px;
+    background-color:#f8f8f8;
+    margin:1.4rem 0
+}
+.date{
+    float:right;
+    display:block
+}
+ul{
+    list-style:none;
+    margin-top:8px;
+    margin-bottom:8px;
+    padding-left:0
+}
+ul + ul{
+    break-inside:avoid-page;
+    margin-bottom:8px
+}
+li{
+    margin-bottom:2px
+}
+li li,.markdown li{
+    padding-left:18px;
+    position:relative
+}
+li li:before,.markdown li:before{
+    content:"\f1db";
+    margin-top:3px;
+    margin-left:-12px;
+    width:10px;
+    font-size:6px;
+    position:absolute
+}
+address{
+    font-style:normal
+}
+.resume-contact-section{
+    display:flex
+}
+.title-and-date{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px dotted #eee;
+    background-color:#f9f9f9;
+    padding:4px 8px;
+    margin-bottom:8px;
+    margin-top:12px
+}
+.resume-skill-item .resume-skill-item .title-and-date{
+    border-bottom:none;
+    background-color:transparent;
+    padding:0;
+    margin-bottom:0
+}
+.markdown p:first-of-type{
+    margin-top:4px
+}
+.markdown p:last-of-type{
+    margin-bottom:4px
+}
+.item-title-context{
+    font-weight:normal
+}
+.item-title-context:before{
+    content:" / ";
+    color:#999
+}
+.resume-address-email,.resume-address-phone,.resume-social-link{
+    display:block
+}
+h3,h4{
+    margin:0
+}
+.resume-social{
+    margin-left:auto;
+}
+.resume-social + ul{
+    margin-right:140px
+}
+.ml-auto{
+    margin-left:auto
+}
+.date{
+    color:#999;
+    font-weight:normal;
+    min-width:170px;
+    text-align:right
+}
+@media print{
+    body{
+        background-color:#fff
+    }
+    .resume{
+        max-width:100%;
+        margin:0;
+        padding:20px 40px 40px 80px;
+        border:0;
+        background-color:transparent;
+        box-shadow:none
+    }
+    .toggle{
+        display:none
+    }
+    .resume-footer{
+        display:none
+    }
+    .markdown a{
+        font-style:italic
+    }
+    .markdown a:after{
+        font-style:normal;
+        content:" (" attr(href) ")"
+    }
+}
+@media screen{
+    @page{
+        margin:5cm
+    }
+    .markdown a{
+        color:#000;
+        border-bottom:1px dashed #aaa
+    }
+    .resume-footer{
+        display:none
+    }
+}
+@media screen and (max-width:900px){
+    body{
+        background-color:#fff
+    }
+    .resume{
+        max-width:100%;
+        margin:0;
+        padding:72px 32px 20px 10px;
+        border:0;
+        background-color:transparent;
+        box-shadow:none
+    }
+    .resume:before{
+        top:10px;
+        left:10px
+    }
+    .toggle{
+        right:6px
+    }
+    .resume-section-body .toggle{
+        right:-27px
+    }
+    .resume-contact-section{
+        flex-wrap:wrap
+    }
+}
+.left{
+    text-align:left
+}
+.center{
+    text-align:center
+}
+.right{
+    text-align:right
+}
+.resume-name{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline
+}
+.resume-headline{
+    font-size:.8rem;
+    font-weight:normal
+}

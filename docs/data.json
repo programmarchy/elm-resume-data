@@ -1,1 +1,167 @@
-{"name":"Donald Ness"}
+{
+  "name":"Donald Ness",
+  "contact": {
+    "address": "Austin, TX\n",
+    "email": "donald.ness@gmail.com",
+    "phone": ""
+  },
+  "socialMedia": {
+    "linkedin": "donald-ness",
+    "github": "programmarchy"
+  },
+  "headline": "Mobile, UI, Cloud, Data",
+  "intro": "10+ years of experience bringing data to life with software engineering and design.",
+  "sections": [
+    {
+      "title": "Key Accomplishments",
+      "content": "* Hired and mentored junior developers helping to level up skills and careers\n* Rapidly developed prototypes securing capital investment and partnerships for startups\n* Experience in many development stacks including web, mobile, and embedded\n* Shipped dozens of apps in domains spanning healthcare, IoT, robotics, education, real estate, e-commerce, sports, and the maker community."
+    },
+    {
+      "title": "Work Experience",
+      "items": [
+        {
+          "context": "Programmarchy, LLC",
+          "title": "Software Consultant (Full-Time)",
+          "begin": "2015-11",
+          "content": "* Architected mobile application, and mentored a team of in-house mobile developers to improve a popular education platform.\n* Led engineering and design of business automation platform, data warehouse, and business intelligence reporting system for an online learning platform.\n* Hired and mentored a junior developer from Galvanize to succeed in developing their first professional web application.\n* Led engineering of mobile, web, and backend technology as part-time CTO for [HealthSteps](https://healthsteps.io), a mobile health platform.\n* Designed and implemented mobile SDKs, example apps, technical documentation and consumer apps for [Jilia](https://jilia.io) an IoT platform.\n* Advised companies on cloud migrations to reduce cost and risk, and improve performance of their applications.\n* Architected, developed, and deployed mobile apps, web apps, and APIs for clients.\n"
+        },
+        {
+          "context": "Modular Robotics",
+          "title": "Senior Software Engineer (Full-Time)",
+          "begin": "2013-04",
+          "end": "2015-11",
+          "content": "* Designed and developed remote control software for modular toy robots for iOS, Android, macOS, and Windows.\n* Shipped 11 mobile apps (8 for iOS, 3 for Android) and 3 desktop apps (cross-platform macOS and Windows).\n* Created core iOS SDKs and Node.js modules used to power software for consumer apps, and manufacturing processes.\n* Designed and implemented a Bluetooth Low Energy profile for interacting with the MOSS Bluetooth LE module.\n* Led approval process through Apple's MFi program for multiple Bluetooth Classic accessories.\n* Developed firmware for AVR, PIC, and ARM Cortex-M0 microprocessors using C.\n* Led a team of high school interns to develop a mobile game that interfaces with MOSS hardware.\n"
+        },
+        {
+          "context": "InspiringApps",
+          "title": "Mobile Software Developer (Full-Time)",
+          "begin": "2012-07",
+          "end": "2013-04",
+          "content": "* Developed mobile applications for iOS and Android.\n* Led improvements to the development process by introducing unit testing and code reviews.\n* Created backend libraries successfully used by the company in multiple projects, notably a data sync client similar to Parse.\n* Collaborated with clients, project managers, and designers to deliver high quality enterprise mobile and web applications.\n"
+        },
+        {
+          "context": "Peppered Software",
+          "title": "Former Co-Founder (Part-Time Joint Venture)",
+          "begin": "2010-10",
+          "end": "2012-12",
+          "content": "* Released Scribe, a successful productivity app for macOS, to the Mac App Store.\n* Developed advanced text processing components (I have an intimate relationship with NSTextView), as well as audio and graphics components in Cocoa.\n"
+        },
+        {
+          "context": "SpeakWrite",
+          "title": "Software Developer (Full-Time)",
+          "begin": "2010-12",
+          "end": "2012-07",
+          "content": "* Led mobile development on iOS, Android, and Windows Phone platforms.\n* Improved original Apple App Store rating from 2 &frac12; stars to 4 &frac12; stars within six months for flagship product, increasing customer satisfaction.\n* Reduced Android-related helpdesk calls an estimated 90% by re-engineering application to achieve compatibility across all major device manufacturers.\n* Designed and developed front-ends in JavaScript with jQuery and ExtJS backed by ASP.NET and MSSQL.\n"
+        },
+        {
+          "context": "Charfen Institute",
+          "title": "Lead Software Developer (Full-Time)",
+          "begin": "2010-01",
+          "end": "2010-12",
+          "content": "* Led daily Scrum meetings and reviewed code of junior developers.\n* Drafted functional specifications for review by a Senior Software Engineer.\n* Reduced internal training and development costs by building a reusable web platform which supported common functionality across multiple company brands.\n* Managed Linux servers on Amazon EC2 with custom scripts for code deployment, and data backup.\n* Improved web user experience and saved bandwidth costs by increasing site performance by tuning SQL queries, caching, debugging and optimizing code with tools such as JMeter and XDebug.\n"
+        },
+        {
+          "context": "TexAgs.com",
+          "title": "Software Developer (Full-Time)",
+          "begin": "2007-05",
+          "end": "2009-06",
+          "content": "Developed social media software used by 100,000 daily unique college sports fans and alumni."
+        },
+        {
+          "context": "DataTrak",
+          "title": "Software Development Intern (Part-Time)",
+          "begin": 2005,
+          "end": 2006,
+          "content": "Developed pharmaceutical grade Java software, which conducted double-blind experiments for new drugs and medical devices, keeping patient confidentiality and eliminating experimenter bias."
+        },
+        {
+          "context": "Navitaire",
+          "title": "Software Development Intern (Part-Time)",
+          "begin": 2002,
+          "end": 2005,
+          "content": "* Developed user interfaces for Java-based MVC web applications for airlines such as JetBlue, Delta, and Continental.\n* Tested complex client-server applications for function, performance, and concurrency metrics.\n* Automated functional and regression testing by scripting data-driven tests."
+        },
+        {
+          "context": "Plant Pathology Department",
+          "title": "Undergraduate Researcher (Part-Time)",
+          "begin": 2005,
+          "end": 2005,
+          "content": "* Researched genetics, microbiology, and statistical algorithms applied to understand the pathology of *Magnaporthe grisea* fungi in rice crops.\n* Wrote a k-fold cross-validator to validate machine-based gene predictions in DNA sequences with known genes identified in our labs and in BLAST databases with BioPerl and other open source tools."
+        },
+        {
+          "context": "Virtual Bookworm",
+          "title": "Graphic Designer (Part-Time)",
+          "begin": 2003,
+          "end": 2005,
+          "content": "Designed book covers, bookmarks, business cards, and other print materials with Adobe Photoshop and Adobe Illustrator."
+        }
+      ]
+    },
+    {
+      "title": "Speaking & Mentoring",
+      "items": [
+        {
+          "context": "Guided a team of high school students at the Innovation Center of the St. Vrain Valley School District to develop an iOS game for an educational robotic system.",
+          "title": "Mentor",
+          "begin": 2015,
+          "end": 2015
+        },
+        {
+          "context": "Computational Thinking With Modular Robotics for Computer Science Teachers Association",
+          "title": "Co-Presenter",
+          "begin": 2014,
+          "end": 2014
+        },
+        {
+          "context": "Introduction to Bluetooth Low Energy at SquatConf in Paris, France.",
+          "title": "Speaker",
+          "begin": 2014,
+          "end": 2014
+        }
+      ]
+    },
+    {
+      "title": "Awards & Recognition",
+      "items": [
+        {
+          "title": "NSF SBIR Phase II: Sketch-based interaction for designing laser cutters. Johnson (PI).",
+          "context": "Contractor implementing new features for tablet-based application to make it easy for students to engage in engineering design as they invent and build physical constructions",
+          "begin": 2016,
+          "end": 2016
+        },
+        {
+          "title": "NSF SBIR Phase II: Learning Design Syntheses with a Mechatronics Kit. Schweikardt (PI).",
+          "context": "Key personnel involved in designing and developing mobile applications and embedded Bluetooth applications designed to engage young people regardless of prior technical experience or STEM exposure in designing mechatronics and robotics systems",
+          "begin": "01-2014",
+          "end": "12-2014"
+        },
+        {
+          "title": "Funded on Kickstarter: MOSS Robot Construction System",
+          "context": "Developed mobile apps and performed interview for video promo",
+          "begin": 2013,
+          "end": 2013
+        },
+        {
+          "title": "Featured app in Mac App Store under New & Noteworthy, Macs in Class, and Apps for Writers.",
+          "context": "One of two developers for the Scribe outliner app",
+          "begin": 2012,
+          "end": 2012
+        }
+      ]
+    },
+    {
+      "title": "Technologies",
+      "content": "My experience is primarily focused on iOS mobile development using Swift and Obj-C, and I am well rounded in Android with Java. I have specialized experience with mobile and hardware integrations, primarily Bluetooth Classic and Bluetooth LE, and I have developed embedded applications in C on PIC, AVR, and ARM microarchitectures.\n\nI am also a full stack web developer with back-end expertise with NodeJS, C#, Python, Ruby, and PHP and front-end expertise with JavaScript, TypeScript, ReactJS, AngularJS, and more. I am a skilled database programmer with PostgreSQL, MySQL, MongoDB, Couchbase, and SQLite. I have cloud deployment experience using Heroku and AWS."
+    },
+    {
+      "title": "Education",
+      "items": [
+        {
+          "title": "Bacheleor of Computer Science with a minor in Economics",
+          "begin": 2006,
+          "end": 2006
+        }
+      ]
+    }
+  ]
+}
